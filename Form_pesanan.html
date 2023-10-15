@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>from pesanan pizza</title>
+</head>
+<body>
+<h1>Black Goose Bistro |pizza on-Demand</h1>
+<p>
+    our 12" wood fired pizzas are available for delivery. build your costum pizza and we'll deliver it withim an hour.
+   </p>
+<br>
+<p>your information</p>
+<form action="http://blackgoosebistro.com/pizza.php" method="post">
+<table>
+  <tr>
+    <td>Name :</td>
+    <td><input type="text"></td>
+  </tr>
+  <tr>
+    <td>address:</td>
+    <td><textarea name="address" id="address"cols="30" rows="5"></textarea></td>
+  </tr>
+  <tr>
+    <td>Telp:</td>
+    <td><input type="number"name:"telephone"></td>
+  </tr>
+  <tr>
+    <td>email:</td>
+    <td><input type="email"name:"email"</td>
+  </tr>
+  <tr>
+    <td>instructions:</td>
+    <td>
+      <textarea name="insructions" id="instructions" cols="30" rows="5" maxlength="400"></textarea>
+    </td>
+ </tr>
+</table>
+<p>
+  <b>Design your Dream pizza:</b>
+  <br>
+  pizza Specs
+</p>
+
+<br>
+<label for="crust (choose one):"></label>
+<input type="radio" name="crust" value="classic white">classic white <br>
+<input type="radio" name="crust" <value="multigrain">multigrain <br>
+<input type="radio" name="crust"value="cheese-stuffed crust">cheese-stuffed crush<br>
+
+<br>
+<label for="toppings">toppings (choose as many as you want):</label> <br>
+<input type="checkbox"name="toppings[]"value="Red sauce">Red sauce <br>
+<input type="checkbox"name="toppings[]"value="white sauce">white sauce <br>
+<input type="checkbox"name="toppings[]"value="mozzarella cheese">mozzarella cheese <br>
+
+<br>
+<input type="submit" value="bring me a pizza">
+  </form>
+</body>
+</html>
